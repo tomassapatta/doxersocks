@@ -1,0 +1,143 @@
+$color1: #808080;
+$color2: #ffebcd;
+$color3: #000000;
+$color4: #fff5ee;
+
+$font1: verdana; 
+
+.main{
+    height: 500px;
+    background-color: $color1;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+
+    .mcenter {
+        text-align: center;
+        padding: 11%;
+    }
+
+    .botonIngreso {
+        text-decoration: none;
+        color: $color3;
+    }
+
+    .botonIngreso:hover {
+        text-decoration: none;
+        color: $color4;
+    }
+
+    .ingreso {
+        font-size: large;
+        font-family: $font1;
+        }
+}
+
+
+    /* nosotros */
+
+.nosotros{
+    background-color: $color1;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+
+
+    .nleft img{
+        height: 500px;
+        padding: 45px;
+        
+        .fotoNosotros:hover { 
+            transform: scale(1.2);
+            transition: 2s;
+        }
+    }
+
+    .nright {
+        text-align: center;
+        background-image: cover;
+        background-position: center;
+        .tituloNosotros:hover { 
+            transition: 2s;
+            transform: scale(1.2);
+        }
+    }
+}
+
+
+/* productos */
+
+
+.productos { 
+    text-align: center;
+    font-size: xx-large;
+    color: $color1;
+    font-family: $font1;
+}
+
+/* ubicacion */
+
+.ubicacion { 
+    height: 500px;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+
+    .tituloEncontranos { 
+        text-align: center;
+        font-size: xx-large;
+        color: $color3;
+        font-family: $font1;
+    }
+
+    .menuEncontranos { 
+        margin-left: 28%;
+    }
+}
+
+/* contacto */
+
+
+
+.contacto { 
+    height: 500px;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+
+    .tituloContacto { 
+        text-align: center;
+        font-size: xx-large;
+        color: $color3;
+        font-family: $font1;
+    }
+        .formContacto  { 
+            margin-left: 40%;
+            margin-top: 5%; 
+        
+            .emailContacto , .motivoContacto{ 
+                width: 30%;
+            }
+        }
+}
+
+
+
+/* footer */
+.footer {
+    min-height: 200px;
+    background-color: $color3;
+    .links { 
+        text-align: center;
+        color: $color2;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: fit-content;
+    }
+    
+    .rrss { 
+        text-align: center;
+        color: $color2;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: fit-content;
+    }
+}
+
+

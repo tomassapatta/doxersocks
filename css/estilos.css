@@ -1,0 +1,112 @@
+.main {
+  height: 500px;
+  background-color: #808080;
+  background-image: url(/img/fondo.jpg);
+  background-size: cover;
+}
+.main .mcenter {
+  text-align: center;
+  padding: 11%;
+}
+.main .botonIngreso {
+  text-decoration: none;
+  color: #000000;
+}
+.main .botonIngreso:hover {
+  text-decoration: none;
+  color: #fff5ee;
+}
+.main .ingreso {
+  font-size: large;
+  font-family: verdana;
+}
+
+/* nosotros */
+.nosotros {
+  background-color: #808080;
+  background-image: url(/img/fondo.jpg);
+  background-size: cover;
+}
+.nosotros .nleft img {
+  height: 500px;
+  padding: 45px;
+}
+.nosotros .nleft img .fotoNosotros:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+.nosotros .nright {
+  text-align: center;
+  background-image: cover;
+  background-position: center;
+}
+.nosotros .nright .tituloNosotros:hover {
+  transition: 2s;
+  transform: scale(1.2);
+}
+
+/* productos */
+.productos {
+  text-align: center;
+  font-size: xx-large;
+  color: #808080;
+  font-family: verdana;
+}
+
+/* ubicacion */
+.ubicacion {
+  height: 500px;
+  background-image: url(/img/fondo.jpg);
+  background-size: cover;
+}
+.ubicacion .tituloEncontranos {
+  text-align: center;
+  font-size: xx-large;
+  color: #000000;
+  font-family: verdana;
+}
+.ubicacion .menuEncontranos {
+  margin-left: 28%;
+}
+
+/* contacto */
+.contacto {
+  height: 500px;
+  background-image: url(/img/fondo.jpg);
+  background-size: cover;
+}
+.contacto .tituloContacto {
+  text-align: center;
+  font-size: xx-large;
+  color: #000000;
+  font-family: verdana;
+}
+.contacto .formContacto {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.contacto .formContacto .emailContacto, .contacto .formContacto .motivoContacto {
+  width: 30%;
+}
+
+/* footer */
+.footer {
+  min-height: 200px;
+  background-color: #000000;
+}
+.footer .links {
+  text-align: center;
+  color: #ffebcd;
+  letter-spacing: 2px;
+  text-decoration: none;
+  width: fit-content;
+}
+.footer .rrss {
+  text-align: center;
+  color: #ffebcd;
+  letter-spacing: 2px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+/*# sourceMappingURL=estilos.css.map */
