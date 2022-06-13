@@ -80,7 +80,7 @@ $font1: verdana;
     background-image: url(/img/fondo.jpg);
     background-size: cover;
 
-    .tituloEncontranos { 
+    .tituloUbicacion { 
         text-align: center;
         font-size: xx-large;
         color: $color3;
@@ -91,6 +91,29 @@ $font1: verdana;
         margin-left: 28%;
     }
 }
+
+$map1: (
+    20px red,
+    20px white,
+    20px blue,
+    20px green,
+    20px yellow,
+);
+
+    @each $sizes, $colores in $map1 {
+        .maps-#{$colores} {
+            height: 50px;
+            width: 75%;
+            text-align: left;
+            border: 2px solid $colores;
+            background-color: $color1;
+            font-size: $sizes;
+            color: #fff5ee;
+            text-transform: uppercase;
+        }
+    }
+
+
 
 /* contacto */
 
@@ -123,6 +146,7 @@ $font1: verdana;
 .footer {
     min-height: 200px;
     background-color: $color3;
+    
     .links { 
         text-align: center;
         color: $color2;
@@ -132,12 +156,31 @@ $font1: verdana;
     }
     
     .rrss { 
-        text-align: center;
-        color: $color2;
-        letter-spacing: 2px;
-        text-decoration: none;
-        width: fit-content;
+        @extend .links
     }
 }
+
+@mixin size ($height, $width, $color){ 
+    height: $height;
+    width: $width;
+    color: $color;
+} 
+
+.box {
+    @include size(100px, 50%, $color4);
+    border: solid 2px $color3;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: $color1;
+    .textoBox {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+.box2 {
+    @extend .box, .textoBox
+}
+
 
 
