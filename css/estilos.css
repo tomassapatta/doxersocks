@@ -1,7 +1,7 @@
 .main {
   height: 500px;
   background-color: #808080;
-  background-image: url(./img/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 .main .mcenter {
@@ -24,16 +24,13 @@
 /* nosotros */
 .nosotros {
   background-color: #808080;
-  background-image: url(/img/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 .nosotros .nleft img {
   height: 500px;
   padding: 45px;
-}
-.nosotros .nleft img .fotoNosotros:hover {
-  transform: scale(1.2);
-  transition: 2s;
+  border-radius: 30px;
 }
 .nosotros .nright {
   text-align: center;
@@ -55,93 +52,40 @@
 
 /* ubicacion */
 .ubicacion {
-  height: 500px;
-  background-image: url(/img/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 .ubicacion .tituloUbicacion {
   text-align: center;
   font-size: xx-large;
-  color: #000000;
+  color: #fff5ee;
   font-family: verdana;
 }
-.ubicacion .menuEncontranos {
-  margin-left: 28%;
-}
-
-.maps-red {
-  height: 50px;
-  width: 75%;
-  text-align: left;
-  border: 2px solid red;
-  background-color: #808080;
-  font-size: 20px;
-  color: #fff5ee;
-  text-transform: uppercase;
-}
-
-.maps-white {
-  height: 50px;
-  width: 75%;
-  text-align: left;
-  border: 2px solid white;
-  background-color: #808080;
-  font-size: 20px;
-  color: #fff5ee;
-  text-transform: uppercase;
-}
-
-.maps-blue {
-  height: 50px;
-  width: 75%;
-  text-align: left;
-  border: 2px solid blue;
-  background-color: #808080;
-  font-size: 20px;
-  color: #fff5ee;
-  text-transform: uppercase;
-}
-
-.maps-green {
-  height: 50px;
-  width: 75%;
-  text-align: left;
-  border: 2px solid green;
-  background-color: #808080;
-  font-size: 20px;
-  color: #fff5ee;
-  text-transform: uppercase;
-}
-
-.maps-yellow {
-  height: 50px;
-  width: 75%;
-  text-align: left;
-  border: 2px solid yellow;
-  background-color: #808080;
-  font-size: 20px;
-  color: #fff5ee;
-  text-transform: uppercase;
+.ubicacion .tituloDireccion {
+  color: #000000;
 }
 
 /* contacto */
 .contacto {
   height: 500px;
-  background-image: url(/img/fondo.jpg);
+  padding: 50px;
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 .contacto .tituloContacto {
-  text-align: center;
+  text-align: left;
   font-size: xx-large;
   color: #000000;
   font-family: verdana;
 }
 .contacto .formContacto {
-  margin-left: 40%;
   margin-top: 5%;
 }
 .contacto .formContacto .emailContacto, .contacto .formContacto .motivoContacto {
-  width: 30%;
+  width: 70%;
+}
+.contacto .logoContacto {
+  width: 400px;
 }
 
 /* footer */
@@ -155,19 +99,6 @@
   letter-spacing: 2px;
   text-decoration: none;
   width: fit-content;
-}
-.box, .box2 {
-  height: 100px;
-  width: 50%;
-  color: #fff5ee;
-  border: solid 2px #000000;
-  margin-left: 30%;
-  margin-top: 10%;
-  background-color: #808080;
-}
-.box .textoBox, .box .box2, .box2 .textoBox, .box2 .box2 {
-  margin-top: 30px;
-  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
